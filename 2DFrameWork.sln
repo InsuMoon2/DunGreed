@@ -1,0 +1,233 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2DFrameWork", "2DFrameWork\2DFrameWork.vcxproj", "{C2138BC9-A195-455F-91A6-5FF469EB5E61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game1", "Game1\Game1.vcxproj", "{62755BC4-7433-469B-8413-314F6EC62971}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61} = {C2138BC9-A195-455F-91A6-5FF469EB5E61}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game2", "Game2\Game2.vcxproj", "{E4AABC26-46D5-436A-BE00-FF12933156D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61} = {C2138BC9-A195-455F-91A6-5FF469EB5E61}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contents", "Contents", "{0EC98764-9025-4AF9-8937-0EB5970059BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{E3F02C0D-0DAD-4181-A968-85F48C12D251}"
+	ProjectSection(SolutionItems) = preProject
+		Shaders\1.Basic.hlsl = Shaders\1.Basic.hlsl
+		Shaders\2.Image.hlsl = Shaders\2.Image.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{54A27132-8557-498B-9819-8A219F8DF917}"
+	ProjectSection(SolutionItems) = preProject
+		Contents\Images\alice_shadow.png = Contents\Images\alice_shadow.png
+		Contents\Images\AniPalette1.png = Contents\Images\AniPalette1.png
+		Contents\Images\attack_Hand.png = Contents\Images\attack_Hand.png
+		Contents\Images\attack_Head.png = Contents\Images\attack_Head.png
+		Contents\Images\attack_shot.png = Contents\Images\attack_shot.png
+		Contents\Images\back.png = Contents\Images\back.png
+		Contents\Images\BackCloud.png = Contents\Images\BackCloud.png
+		Contents\Images\BGLayer_0.png = Contents\Images\BGLayer_0.png
+		Contents\Images\bird.png = Contents\Images\bird.png
+		Contents\Images\block.png = Contents\Images\block.png
+		Contents\Images\boss_icon.PNG = Contents\Images\boss_icon.PNG
+		Contents\Images\BossLifeBack.png = Contents\Images\BossLifeBack.png
+		Contents\Images\BossLifeBase.png = Contents\Images\BossLifeBase.png
+		Contents\Images\BossMap.png = Contents\Images\BossMap.png
+		Contents\Images\BossMaped.png = Contents\Images\BossMaped.png
+		Contents\Images\bullet.png = Contents\Images\bullet.png
+		Contents\Images\bullet_Fx.png = Contents\Images\bullet_Fx.png
+		Contents\Images\CandleOn2.png = Contents\Images\CandleOn2.png
+		Contents\Images\CandleOn3.png = Contents\Images\CandleOn3.png
+		Contents\Images\circle.png = Contents\Images\circle.png
+		Contents\Images\Copyright.png = Contents\Images\Copyright.png
+		Contents\Images\CosmosSlashFX0.png = Contents\Images\CosmosSlashFX0.png
+		Contents\Images\CosmosSword.png = Contents\Images\CosmosSword.png
+		Contents\Images\CosmosSwordFx.png = Contents\Images\CosmosSwordFx.png
+		Contents\Images\CosmosSwordFx1.png = Contents\Images\CosmosSwordFx1.png
+		Contents\Images\CosmosSwordIcon.png = Contents\Images\CosmosSwordIcon.png
+		Contents\Images\DashBase.png = Contents\Images\DashBase.png
+		Contents\Images\DashCount.png = Contents\Images\DashCount.png
+		Contents\Images\DashCountBase_0.png = Contents\Images\DashCountBase_0.png
+		Contents\Images\Die.png = Contents\Images\Die.png
+		Contents\Images\door.png = Contents\Images\door.png
+		Contents\Images\DungeonEat.png = Contents\Images\DungeonEat.png
+		Contents\Images\DustEffect.png = Contents\Images\DustEffect.png
+		Contents\Images\ExitOff_Kor.png = Contents\Images\ExitOff_Kor.png
+		Contents\Images\ExitOn_Kor.png = Contents\Images\ExitOn_Kor.png
+		Contents\Images\finish.png = Contents\Images\finish.png
+		Contents\Images\FrontCloud.png = Contents\Images\FrontCloud.png
+		Contents\Images\head.png = Contents\Images\head.png
+		Contents\Images\horse.png = Contents\Images\horse.png
+		Contents\Images\iceAtlas.png = Contents\Images\iceAtlas.png
+		Contents\Images\idle.png = Contents\Images\idle.png
+		Contents\Images\idle_H.png = Contents\Images\idle_H.png
+		Contents\Images\idle_shot.png = Contents\Images\idle_shot.png
+		Contents\Images\L_body.png = Contents\Images\L_body.png
+		Contents\Images\L_head.png = Contents\Images\L_head.png
+		Contents\Images\Level.PNG = Contents\Images\Level.PNG
+		Contents\Images\LifeBar.png = Contents\Images\LifeBar.png
+		Contents\Images\LifeWave.png = Contents\Images\LifeWave.png
+		Contents\Images\MainLogo.png = Contents\Images\MainLogo.png
+		Contents\Images\mouth.png = Contents\Images\mouth.png
+		Contents\Images\openEffect.png = Contents\Images\openEffect.png
+		Contents\Images\particle.png = Contents\Images\particle.png
+		Contents\Images\particle_1.png = Contents\Images\particle_1.png
+		Contents\Images\particle_2.png = Contents\Images\particle_2.png
+		Contents\Images\particle_3.png = Contents\Images\particle_3.png
+		Contents\Images\particle_4.png = Contents\Images\particle_4.png
+		Contents\Images\player_die.png = Contents\Images\player_die.png
+		Contents\Images\player_idle.png = Contents\Images\player_idle.png
+		Contents\Images\player_jump.png = Contents\Images\player_jump.png
+		Contents\Images\player_run.png = Contents\Images\player_run.png
+		Contents\Images\PlayerLifeBack.png = Contents\Images\PlayerLifeBack.png
+		Contents\Images\PlayerLifeBase 1.png = Contents\Images\PlayerLifeBase 1.png
+		Contents\Images\PlayOff_Kor.png = Contents\Images\PlayOff_Kor.png
+		Contents\Images\PlayOn_Kor.png = Contents\Images\PlayOn_Kor.png
+		Contents\Images\S_charge.png = Contents\Images\S_charge.png
+		Contents\Images\S_default.png = Contents\Images\S_default.png
+		Contents\Images\S_hit.png = Contents\Images\S_hit.png
+		Contents\Images\S_shoot.png = Contents\Images\S_shoot.png
+		Contents\Images\SwingFX.png = Contents\Images\SwingFX.png
+		Contents\Images\tileAtlas.png = Contents\Images\tileAtlas.png
+		Contents\Images\tileAtlas1.png = Contents\Images\tileAtlas1.png
+		Contents\Images\tileAtlas2.png = Contents\Images\tileAtlas2.png
+		Contents\Images\tileAtlas3.png = Contents\Images\tileAtlas3.png
+		Contents\Images\tileAtlas3.psd = Contents\Images\tileAtlas3.psd
+		Contents\Images\Time.png = Contents\Images\Time.png
+		Contents\Images\torch.png = Contents\Images\torch.png
+		Contents\Images\Town_BGL.png = Contents\Images\Town_BGL.png
+		Contents\Images\townAtlas.png = Contents\Images\townAtlas.png
+		Contents\Images\townAtlas1.png = Contents\Images\townAtlas1.png
+		Contents\Images\TownBG_Day.png = Contents\Images\TownBG_Day.png
+		Contents\Images\TownF.png = Contents\Images\TownF.png
+		Contents\Images\TownF2.psd = Contents\Images\TownF2.psd
+		Contents\Images\TownFloor.png = Contents\Images\TownFloor.png
+		Contents\Images\TownLayer_Day.png = Contents\Images\TownLayer_Day.png
+		Contents\Images\Tree0.png = Contents\Images\Tree0.png
+		Contents\Images\Tree1.png = Contents\Images\Tree1.png
+		Contents\Images\Villiaged.png = Contents\Images\Villiaged.png
+		Contents\Images\Villiaged2.png = Contents\Images\Villiaged2.png
+		Contents\Images\Well.png = Contents\Images\Well.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Txt", "Txt", "{BC1DD457-26F1-4145-994B-7D33F751C292}"
+	ProjectSection(SolutionItems) = preProject
+		Txt\렌더링 파이프라인.txt = Txt\렌더링 파이프라인.txt
+		Txt\벡터.txt = Txt\벡터.txt
+		Txt\삼각함수.txt = Txt\삼각함수.txt
+		Txt\좌표해상도.txt = Txt\좌표해상도.txt
+		Txt\행렬.txt = Txt\행렬.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sound", "Sound", "{031D9208-75CB-45ED-AE3F-F9B0AA28E8CC}"
+	ProjectSection(SolutionItems) = preProject
+		Contents\Sound\0.Town.wav = Contents\Sound\0.Town.wav
+		Contents\Sound\1.JailBoss.wav = Contents\Sound\1.JailBoss.wav
+		Contents\Sound\1.JailField.wav = Contents\Sound\1.JailField.wav
+		Contents\Sound\155235__zangrutz__bomb-small.wav = Contents\Sound\155235__zangrutz__bomb-small.wav
+		Contents\Sound\2.IceField.wav = Contents\Sound\2.IceField.wav
+		Contents\Sound\ambience_ice.wav = Contents\Sound\ambience_ice.wav
+		Contents\Sound\ambience_prison.wav = Contents\Sound\ambience_prison.wav
+		Contents\Sound\ambience_town.wav = Contents\Sound\ambience_town.wav
+		..\..\Desktop\Framework\Contents\Sound\bgm.wav = ..\..\Desktop\Framework\Contents\Sound\bgm.wav
+		Contents\Sound\bgm.wav = Contents\Sound\bgm.wav
+		Contents\Sound\bigdrummo_MetalJumper_Landing.wav = Contents\Sound\bigdrummo_MetalJumper_Landing.wav
+		Contents\Sound\bow_crossbow_arrow_draw_stretch1_03.wav = Contents\Sound\bow_crossbow_arrow_draw_stretch1_03.wav
+		Contents\Sound\dash.wav = Contents\Sound\dash.wav
+		Contents\Sound\dead.wav = Contents\Sound\dead.wav
+		Contents\Sound\DungeonOut.wav = Contents\Sound\DungeonOut.wav
+		Contents\Sound\Equip.wav = Contents\Sound\Equip.wav
+		Contents\Sound\etc-sound0034_Bow.wav = Contents\Sound\etc-sound0034_Bow.wav
+		Contents\Sound\Fantasy_Game_Skill_Axethrow_B.wav = Contents\Sound\Fantasy_Game_Skill_Axethrow_B.wav
+		Contents\Sound\fireball(CC-BY3.0) Bart K..wav = Contents\Sound\fireball(CC-BY3.0) Bart K..wav
+		Contents\Sound\flaunchLightbringer.wav = Contents\Sound\flaunchLightbringer.wav
+		Contents\Sound\Foodshop.wav = Contents\Sound\Foodshop.wav
+		Contents\Sound\GatlingFire.wav = Contents\Sound\GatlingFire.wav
+		Contents\Sound\GatlingWarmUp.wav = Contents\Sound\GatlingWarmUp.wav
+		Contents\Sound\generalAttack.wav = Contents\Sound\generalAttack.wav
+		Contents\Sound\Get_Fairy.wav = Contents\Sound\Get_Fairy.wav
+		Contents\Sound\GetItem.wav = Contents\Sound\GetItem.wav
+		Contents\Sound\gold_collect.wav = Contents\Sound\gold_collect.wav
+		Contents\Sound\GrowAbility.wav = Contents\Sound\GrowAbility.wav
+		..\..\Desktop\Framework\Contents\Sound\gun.wav = ..\..\Desktop\Framework\Contents\Sound\gun.wav
+		Contents\Sound\gun.wav = Contents\Sound\gun.wav
+		Contents\Sound\handAttack.wav = Contents\Sound\handAttack.wav
+		Contents\Sound\Hit_Player.wav = Contents\Sound\Hit_Player.wav
+		Contents\Sound\ice_spell_freeze_small_02.wav = Contents\Sound\ice_spell_freeze_small_02.wav
+		Contents\Sound\JailMetalDoorSoundEffect.wav = Contents\Sound\JailMetalDoorSoundEffect.wav
+		Contents\Sound\Jumping.wav = Contents\Sound\Jumping.wav
+		Contents\Sound\katana.wav = Contents\Sound\katana.wav
+		Contents\Sound\katana2.wav = Contents\Sound\katana2.wav
+		Contents\Sound\katana3.wav = Contents\Sound\katana3.wav
+		Contents\Sound\magic_flame_of_light_03.wav = Contents\Sound\magic_flame_of_light_03.wav
+		Contents\Sound\OpenInventory.wav = Contents\Sound\OpenInventory.wav
+		Contents\Sound\PickaxeRed.wav = Contents\Sound\PickaxeRed.wav
+		Contents\Sound\PickUpItem.wav = Contents\Sound\PickUpItem.wav
+		Contents\Sound\random5.wav = Contents\Sound\random5.wav
+		Contents\Sound\random6.wav = Contents\Sound\random6.wav
+		Contents\Sound\Reload.wav = Contents\Sound\Reload.wav
+		Contents\Sound\Reload2.wav = Contents\Sound\Reload2.wav
+		Contents\Sound\RifleFire.wav = Contents\Sound\RifleFire.wav
+		Contents\Sound\scythe.wav = Contents\Sound\scythe.wav
+		Contents\Sound\Shop.wav = Contents\Sound\Shop.wav
+		Contents\Sound\step_lth1.wav = Contents\Sound\step_lth1.wav
+		Contents\Sound\step_lth2.wav = Contents\Sound\step_lth2.wav
+		Contents\Sound\step_lth3.wav = Contents\Sound\step_lth3.wav
+		Contents\Sound\step_lth4.wav = Contents\Sound\step_lth4.wav
+		Contents\Sound\swap.wav = Contents\Sound\swap.wav
+		Contents\Sound\swing1.wav = Contents\Sound\swing1.wav
+		Contents\Sound\TigerRoar.wav = Contents\Sound\TigerRoar.wav
+		Contents\Sound\title.wav = Contents\Sound\title.wav
+		Contents\Sound\wujusword.wav = Contents\Sound\wujusword.wav
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Debug|x64.ActiveCfg = Debug|x64
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Debug|x64.Build.0 = Debug|x64
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Debug|x86.Build.0 = Debug|Win32
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Release|x64.ActiveCfg = Release|x64
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Release|x64.Build.0 = Release|x64
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Release|x86.ActiveCfg = Release|Win32
+		{C2138BC9-A195-455F-91A6-5FF469EB5E61}.Release|x86.Build.0 = Release|Win32
+		{62755BC4-7433-469B-8413-314F6EC62971}.Debug|x64.ActiveCfg = Debug|x64
+		{62755BC4-7433-469B-8413-314F6EC62971}.Debug|x64.Build.0 = Debug|x64
+		{62755BC4-7433-469B-8413-314F6EC62971}.Debug|x86.ActiveCfg = Debug|Win32
+		{62755BC4-7433-469B-8413-314F6EC62971}.Debug|x86.Build.0 = Debug|Win32
+		{62755BC4-7433-469B-8413-314F6EC62971}.Release|x64.ActiveCfg = Release|x64
+		{62755BC4-7433-469B-8413-314F6EC62971}.Release|x64.Build.0 = Release|x64
+		{62755BC4-7433-469B-8413-314F6EC62971}.Release|x86.ActiveCfg = Release|Win32
+		{62755BC4-7433-469B-8413-314F6EC62971}.Release|x86.Build.0 = Release|Win32
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Debug|x64.ActiveCfg = Debug|x64
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Debug|x64.Build.0 = Debug|x64
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Debug|x86.Build.0 = Debug|Win32
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Release|x64.ActiveCfg = Release|x64
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Release|x64.Build.0 = Release|x64
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Release|x86.ActiveCfg = Release|Win32
+		{E4AABC26-46D5-436A-BE00-FF12933156D1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54A27132-8557-498B-9819-8A219F8DF917} = {0EC98764-9025-4AF9-8937-0EB5970059BA}
+		{031D9208-75CB-45ED-AE3F-F9B0AA28E8CC} = {0EC98764-9025-4AF9-8937-0EB5970059BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E65A645-0ED0-45FC-8214-114C1DE27774}
+	EndGlobalSection
+EndGlobal
