@@ -17,3 +17,6 @@
     </ul>
   </li>
 </ul>
+
+
+영상 링크 : https://www.youtube.com/watch?v=lAldddUaKr4&list=PLvOiSfwLo0XcBTtvDhVcdWnuT6QdIWAZy&index=4
